@@ -37,7 +37,7 @@ void start_port_knocking_listener() {
         if (sock[i] > max_fd) max_fd = sock[i];
     }
 
-    printf("[+] Port knocking en attente sur les ports : 1234, 5678, 9101\n");
+    printf("[+] Port knocking en attente sur les ports : 7777, 5921, 8675\n");
 
     while (1) {
         FD_ZERO(&readfds);
